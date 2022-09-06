@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.container {
+    border: .3rem solid black;
+    display: flex;
+    /*flex-direction: column;*/ /*concatena a columna*/
+    /*flex-direction: column-reverse;*/ /*concatena a columna y revierte el orden*/
+    /*flex-direction: row;*/ /*concatena a fila*/
+    /*flex-direction: row-reverse;*/ /*concatena a fila y revierte el orden*/
+    /*flex-wrap: wrap;*/ /*si no cabe en el espacio lo manda hacia abajo*/
+    /*flex-wrap: wrap-reverse;*/ /*si no cabe en el espacio lo manda hacia abajo y en orden invertido*/
+    /*align-items: start;*/ /*coloca arriba*/
+    /*align-items: center;*/ /*centra verticalmente*/
+    /*align-items: end;*/ /*coloca al fondo*/
+    /*align-items: stretch;*/ /*estira verticalmente*/
+    /*align-items: baseline;*/ /*toma el espacio del contenido*/
+    /*justify-content: center;*/ /*alinea al centro*/
+    /*justify-content: flex-start;*/ /*alinea a la izquierda*/
+    /*justify-content: flex-end;*/ /*alinea a la derecha*/
+    /*justify-content: space-around;*/ /*espacia entre contenedores*/
+    /*justify-content: space-evenly;*/ /*espacia entre contenedores al mismo tamaño incluyendo las orillas*/
+}
+.box {
+    width: 10rem;
+    height: 10rem;
+    /*flex-basis: 10rem;*/ /*tamaño mínimo*/
+    /*flex-grow: 1;*/ /*ocupar todo el espacio*/
+}
+.box1 {
+    background-color: blue;
+    /*order: 1;*/
+    /*flex-grow: 1;*/
+}
+.box2 {
+    background-color: blueviolet;
+    /*order: 3;*/
+    /*flex-grow: 1;*/
+}
+.box3 {
+    background-color: burlywood;
+}
+.box4 {
+    background-color: cadetblue;
+}
+.box5 {
+    background-color: coral;
+    /*order: 4;*/
+}
+.box6 {
+    background-color: salmon;
+    /*order: 2;*/
+}

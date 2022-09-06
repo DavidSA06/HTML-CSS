@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box; /*Toma en cuenta únicamente el tamaño de la caja en el padding y el border. Los calcula para ajustar a la página*/
+    padding: 0;
+    margin: 0;
+} /*El asterisco es el selector universal de estilos*/
+
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px;
+}
