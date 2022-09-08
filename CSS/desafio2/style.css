@@ -1,52 +1,52 @@
 * {
-    box-sizing: border-box; /*se incluye el padding y border al ancho y altura*/
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box; /*se incluye el padding y border al ancho y altura*/
+  margin: 0;
+  padding: 0;
 }
 html {
-    font-size: 62.5%; /*10px*/
+  font-size: 62.5%; /*10px*/
 }
 .header {
-    background-color: gray;
-    font-size: 1.8rem;
-    height: 5rem;
+  background-color: gray;
+  font-size: 1.8rem;
+  height: 5rem;
 }
 .logo {
-    position: absolute;
+  position: absolute;
 }
 .links {
-    position: absolute;
-    right: 0; /*la posición se determina desde la derecha*/
+  position: absolute;
+  right: 0; /*la posición se determina desde la derecha*/
 }
 .block li {
-    display: inline-block; /*convertimos la lista en bloques horizontales*/
+  display: inline-block; /*convertimos la lista en bloques horizontales*/
 }
 .box {
-    display: inline-block; /*convertimos la lista en bloques horizontales*/
-    height: 60rem;
-    width: 100vw; /*los bloques de la mitad deben cubrir el 100% del ancho*/
+  display: inline-block; /*convertimos la lista en bloques horizontales*/
+  height: 60rem;
+  width: 100vw; /*los bloques de la mitad deben cubrir el 100% del ancho*/
 }
 #side {
-    background-color: indianred;
-    font-size: 1.6rem;
-    width: 20rem;
+  background-color: indianred;
+  font-size: 1.6rem;
+  width: 20rem;
 }
 .list li {
-    display: block;
-    background-color: blueviolet;
-    padding: 4rem 1rem;
-    margin: 1rem;
-    position: relative;
+  display: block;
+  background-color: blueviolet;
+  padding: 4rem 1rem;
+  margin: 1rem;
+  position: relative;
 } 
 #main {
-    background-color: darkgray;
-    font-size: 1.6rem;
-    min-width: 30rem;
-    position: absolute;
+  background-color: darkgray;
+  font-size: 1.6rem;
+  min-width: 30rem;
+  position: absolute;
 }
 .footer {
-    background-color: yellow;
-    font-size: 1.2rem;
-    height: 5rem;
-    position: relative;
+  background-color: yellow;
+  font-size: 1.2rem;
+  height: 5rem;
+  position: relative;
 }

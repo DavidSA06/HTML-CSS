@@ -1,24 +1,24 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 .title {
-    display: flex;
-    width: 30rem;
-    height: 10rem;
-    margin: auto;
-    background-color: red;
-    position: relative;
-    top: 5rem;
+  display: flex;
+  width: 30rem;
+  height: 10rem;
+  margin: auto;
+  background-color: red;
+  position: relative;
+  top: 5rem;
 }
 .text {
-    top: 10rem;
-    width: 40rem;
-    height: 30rem;
-    margin: auto;
-    background-color: gray;
+  top: 10rem;
+  width: 40rem;
+  height: 30rem;
+  margin: auto;
+  background-color: gray;
 }

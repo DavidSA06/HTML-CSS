@@ -1,3 +1,8 @@
+/* clase para practicar combinadores*/
+/*"+" selector hermano adyacente*/
+/*"~" selector hermano general*/
+/*">" selector hijo*/
+/*" " selector descendiente*/
 div p {
-    color: red;
+	color: red;
 }

@@ -1,32 +1,32 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 h1 {
-    color: purple;
-    font-family: serif;
-    margin-bottom: 10px;
+  color: purple;
+  font-family: serif;
+  margin-bottom: 10px;
 }
-.title {/*para llmar clases*/
-    font-size: 18px;
-    font-family: monospace;
+.title {  /*para llamar clases*/
+  font-size: 18px;
+  font-family: monospace;
 }
 .nav {
-    margin-top: 10px;
-    list-style-type: none;
-    padding-left: 0px;
+  margin-top: 10px;
+  list-style-type: none;  /*Sin estilo de marcadores*/
+  padding-left: 0px;
 }
 .nav li {
-    display: inline-block;
+  display: inline-block; /*inline pero respetando el ancho y altura del elemento*/
 }
 .nav a {
-    color: white;
-    background-color: #12a4a4;
-    padding: 5px;
-    border-radius: 2px;
-    text-decoration: none;
+  color: white;
+  background-color: #12a4a4;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
 }
 .nav .blog {
-    background-color: red;
+  background-color: red;
 }

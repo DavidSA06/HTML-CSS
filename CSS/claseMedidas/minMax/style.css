@@ -1,20 +1,20 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 main {
-    width: 100vw; /*viewport width*/
-    height: 100vh; /*viewport height*/
-    background-color: purple;
+  width: 100vw; /*viewport width*/
+  height: 100vh; /*viewport height*/
+  background-color: purple;
 }
 
 section {
-    width: 80%;
-    min-width: 320px;/*crecimiento acotado*/
-    max-width: 500px;
-    min-height: 500px;/*acotado inferiormente*/
-    margin: 0 auto; /*Margen top bottom 0, left right automático centrado*/
-    background-color: red;
+  width: 80%;
+  min-width: 320px;/*crecimiento acotado*/
+  max-width: 500px;
+  min-height: 500px;/*acotado inferiormente*/
+  margin: 0 auto; /*Margen top bottom 0, left right automático centrado*/
+  background-color: red;
 }

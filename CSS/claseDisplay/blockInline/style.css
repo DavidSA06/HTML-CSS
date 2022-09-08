@@ -1,20 +1,20 @@
 .block-element {
-    background-color: green;
-    margin: 10px;
-    padding: 20px;
+  background-color: green;
+  margin: 10px;
+  padding: 20px;
 }
 
 .nav {
-    background-color: peachpuff;
-    padding: 20px;
-    list-style: none; /*sin bullets*/
-    text-align: center;
+  background-color: peachpuff;
+  padding: 20px;
+  list-style: none; /*sin bullets*/
+  text-align: center;
 }
 
 .nav li {
-    display: inline-block;
-    font-size: 20px;
-    margin: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }

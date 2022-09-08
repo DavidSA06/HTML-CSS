@@ -1,15 +1,16 @@
+/*element*/
 p {
-    color: blue;
-    font-size: 40px;
+  color: blue;
+  font-size: 40px;
 }
 
-/* class */
+/*class*/
 .parrafo {
-    color: red;
+	color: red;
 }
 
-/* id */
+/*id*/
 #texto {
-    color: yellow;
-    font: 24px
+  color: yellow;
+	font: 24px
 }
